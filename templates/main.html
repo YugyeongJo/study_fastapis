@@ -1,22 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fastapi</title>
-</head>
-<body>
-    <nav>
-        <ul class="nav">
-            <li class="nav-item"><a href="gadgets/forms">forms</a></li>
-            <li class="nav-item"><a href="gadgets/grids">grids</a></li>
-            <li class="nav-item"><a href="gadgets/standard">standard</a></li>
-            <li class="nav-item"><a href="gadgets/tables">tables</a></li>
-            <li class="nav-item"><a href="positionings/buttons">buttons</a></li>
-            <li class="nav-item"><a href="positionings/cards">cards</a></li>
-            <li class="nav-item"><a href="positionings/colors">colors</a></li>
-            <li class="nav-item"><a href="positionings/containers">containers</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
+{% extends "main_templates.html" %}
+
+{% block main_container %}
+<h2>Main Page</h2>
+{% endblock %}
+
+{% block footer_container %}
+<h2>Footer</h2>
+{% endblock %}
